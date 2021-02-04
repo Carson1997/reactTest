@@ -2,10 +2,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import '@/7.class继承'
+import '@/assets/js/8.class关键字创建组件'
 
-ReactDOM.render(
-<div>
-123
-</div>
-, document.getElementById('app'))
+// ReactDOM.render(
+// <div>
+// 123
+// </div>
+// , document.getElementById('app'))

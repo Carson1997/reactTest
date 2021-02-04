@@ -18,11 +18,11 @@ const a1 = new American('Jack',18)
 console.log(a1)
 a1.say('hello')
 
-
+console.log('==========');
 
 //子类
 class Chinese extends Person{
-	//子类继承父类时会默认自动执行构造器的super,super有对应的参数，否则会undefined
+	//子类继承父类时会默认自动执行构造器的super,super要有对应的参数，否则会undefined
 	constructor(name,age,id) {
 		super(name,age,id)
 		// 子类独有的参数要在super后赋值

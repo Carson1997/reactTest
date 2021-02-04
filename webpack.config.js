@@ -7,7 +7,7 @@ const htmlPlugin = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-	mode: 'production',
+	mode: 'development',
 	plugins: [
 		htmlPlugin
 	],
