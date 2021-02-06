@@ -16,8 +16,12 @@ module.exports = {
 				test: /\.js|jsx$/,
 				use: 'babel-loader',
 				exclude: /node_modules/
-			},
-
+		},
+			{ test: /\.css$/, use: ['style-loader', 'css-loader'] },//加上module使用模块化区分
+			
+			{ test: /\.tft|woff|woff2|eot|svg$/, use: 'url-loader' },//打包处理字体文件的loader
+			
+			{test:/\.scss$/,use:['style-loader', 'css-loader?modules','sass-loader']},//处理scss
 		],
 	},
 	resolve:{

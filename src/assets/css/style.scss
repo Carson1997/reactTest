@@ -1,0 +1,18 @@
+/* css模块化只针对class和id生效 */
+
+.title{
+    color: red;
+}
+
+#cmtTitle{
+    color:aquamarine
+}
+
+h1{
+    font-style: italic;
+}
+
+/* 全局 */
+:global(.test){
+color: cornflowerblue;
+}

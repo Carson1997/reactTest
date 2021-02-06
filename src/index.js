@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import '@/assets/js/8.class关键字创建组件'
+import '@/assets/js/9.创建cmtList组件'
 
 // ReactDOM.render(
 // <div>

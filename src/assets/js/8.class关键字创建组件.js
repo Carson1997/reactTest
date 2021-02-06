@@ -29,16 +29,16 @@ class Movie extends React.Component {
     render()
     {
         this.state.msg = 'msg被修改了'
-        return <div > movie组件, {
+        return <div> movie组件, {
             this.props.name
         }, {
             this.props.age
         }
             <h3>{ this.state.msg}</h3>
-        < /div>
+        </div>
     }
 }
 
-ReactDOM.render( < Movie {
+ReactDOM.render( <Movie {
             ...user
-        } > < /Movie>, document.getElementById('app'))
+        } > </Movie>, document.getElementById('app'))
