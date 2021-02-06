@@ -6,14 +6,6 @@ const user = {
     age: 24
 }
 
-
-//class的组件：有状态组件，
-//function的组件，只有props，没有私有数据state属性和生命周期，效率会高一点
-//props和state/data区别：
-// props中数据是外界传递过来的，只读不能重新赋值
-// state/data组件是有的（ajax获取的数据），可读写
-
-
 class Movie extends React.Component {
 
     constructor()
